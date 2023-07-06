@@ -1,27 +1,184 @@
 {
-    "usuario": [
-      {
-        "id": 1,
-        "nome": "Gustavo Cervati Castello"
-      },
-      {
-        "id": 2,
-        "nome": "Gabriel Zago"
-      },
-      {
-        "id": 3,
-        "nome": "Cristiano de Paula"
-      },
-      {
-        "id": 4,
-        "nome": "Julio Cesar Xavier Pereira"
-      },
-      {
-        "id": 5,
-        "nome": "Sérgio Lacerda"
-      }
-    ],
-    "profile": {
-      "name": "typicode"
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Ração para cães",
+      "preco": 50.0,
+      "quantidade": 20
+    },
+    {
+      "id": 2,
+      "nome": "Ração para gatos",
+      "preco": 40.0,
+      "quantidade": 15
+    },
+    {
+      "id": 3,
+      "nome": "Coleira",
+      "preco": 25.0,
+      "quantidade": 30
+    },
+    {
+      "id": 4,
+      "nome": "Shampoo para pets",
+      "preco": 35.0,
+      "quantidade": 10
+    },
+    {
+      "id": 5,
+      "nome": "Brinquedo para cães",
+      "preco": 15.0,
+      "quantidade": 25
     }
-  }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "João",
+      "email": "joao@example.com",
+      "telefone": "123456789"
+    },
+    {
+      "id": 2,
+      "nome": "Maria",
+      "email": "maria@example.com",
+      "telefone": "987654321"
+    },
+    {
+      "id": 3,
+      "nome": "Pedro",
+      "email": "pedro@example.com",
+      "telefone": "555555555"
+    },
+    {
+      "id": 4,
+      "nome": "Ana",
+      "email": "ana@example.com",
+      "telefone": "777777777"
+    },
+    {
+      "id": 5,
+      "nome": "Carlos",
+      "email": "carlos@example.com",
+      "telefone": "999999999"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Admin",
+      "email": "admin@example.com",
+      "senha": "senha_admin"
+    },
+    {
+      "id": 2,
+      "nome": "Usuário 1",
+      "email": "usuario1@example.com",
+      "senha": "senha_usuario1"
+    },
+    {
+      "id": 3,
+      "nome": "Usuário 2",
+      "email": "usuario2@example.com",
+      "senha": "senha_usuario2"
+    }
+  ],
+  "agendamentos": [
+    {
+      "id": 1,
+      "cliente_id": 1,
+      "data": "2023-07-10",
+      "horario": "09:00",
+      "servico": "Banho e tosa"
+    },
+    {
+      "id": 2,
+      "cliente_id": 3,
+      "data": "2023-07-11",
+      "horario": "14:00",
+      "servico": "Corte de unhas"
+    },
+    {
+      "id": 3,
+      "cliente_id": 2,
+      "data": "2023-07-12",
+      "horario": "11:30",
+      "servico": "Banho e secagem"
+    },
+    {
+      "id": 4,
+      "cliente_id": 4,
+      "data": "2023-07-13",
+      "horario": "16:30",
+      "servico": "Limpeza de ouvidos"
+    },
+    {
+      "id": 5,
+      "cliente_id": 5,
+      "data": "2023-07-14",
+      "horario": "10:00",
+      "servico": "Tosa higiênica"
+    }
+  ],
+  "servicos": [
+    {
+      "id": 1,
+      "nome": "Banho e tosa",
+      "preco": 60.0
+    },
+    {
+      "id": 2,
+      "nome": "Corte de unhas",
+      "preco": 20.0
+    },
+    {
+      "id": 3,
+      "nome": "Banho e secagem",
+      "preco": 40.0
+    },
+    {
+      "id": 4,
+      "nome": "Limpeza de ouvidos",
+      "preco": 30.0
+    },
+    {
+      "id": 5,
+      "nome": "Tosa higiênica",
+      "preco": 25.0
+    }
+  ],
+  "carrinho": [
+    {
+      "id": 1,
+      "cliente_id": 1,
+      "produtos": [
+        {
+          "produto_id": 1,
+          "quantidade": 2
+        },
+        {
+          "produto_id": 3,
+          "quantidade": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "cliente_id": 2,
+      "produtos": [
+        {
+          "produto_id": 2,
+          "quantidade": 3
+        },
+        {
+          "produto_id": 4,
+          "quantidade": 2
+        },
+        {
+          "produto_id": 5,
+          "quantidade": 1
+        }
+      ]
+    }
+  ]
+}
