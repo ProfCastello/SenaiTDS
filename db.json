@@ -147,39 +147,4 @@
       "preco": 25.0
     }
   ]
-  // ,
-  // "carrinho": [
-  //   {
-  //     "id": 1,
-  //     "cliente_id": 1,
-  //     "produtos": [
-  //       {
-  //         "produto_id": 1,
-  //         "quantidade": 2
-  //       },
-  //       {
-  //         "produto_id": 3,
-  //         "quantidade": 1
-  //       }
-  //     ]
-  //   },
-  //   {
-  //     "id": 2,
-  //     "cliente_id": 2,
-  //     "produtos": [
-  //       {
-  //         "produto_id": 2,
-  //         "quantidade": 3
-  //       },
-  //       {
-  //         "produto_id": 4,
-  //         "quantidade": 2
-  //       },
-  //       {
-  //         "produto_id": 5,
-  //         "quantidade": 1
-  //       }
-  //     ]
-  //   }
-  // ]
 }
